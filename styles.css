@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('data:image/jpeg;base64,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') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2d4373;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3b5998;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.posts-content .post {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+.book, .coffee-item, .blog-post {
+    margin: 15px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.book img {
+    max-width: 150px;
+    height: auto;
+}
+
+#contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input, #contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.blog-preview .blog-post a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.blog-preview .blog-post a:hover {
+    text-decoration: underline;
+}
